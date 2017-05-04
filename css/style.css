@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+
+} 
+
+
+header{
+    background: #02CC83;
+    overflow: hidden;
+    padding: 15px 0 50px;
+}
+.container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{
+   width: 100%;
+}
+nav{
+    width: 80%;float: left;
+    text-align: right;
+}
+nav ul{
+    margin:0;padding: 0;
+}
+nav ul li{
+    list-style: none;
+display: inline-block;
+}
+nav ul li a{
+    display: block;color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 20px;
+
+}
+
+
+.pricing-table-section{
+        background: #4d4e56;
+        height: 700px;
+}
+.pricing-table{
+        box-shadow: 0 0 6px #000;
+    padding: 25px 15px;
+    overflow: hidden;
+    background: #fff;
+    transform: translateY(-30px);
+}
+.pricing-heading{    text-align: center;}
+.pricing-heading h1{    margin-top: 0;}
+.pricing-heading p{}
+
+.price-box{
+    width: 33.33%;
+    float: left;
+    /* background: gray; */
+    padding: 15px;
+    box-sizing: border-box;
+}
+.price-box ul{
+    background: #cccccc;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px 0;
+}
+.price-box ul li{
+    list-style: none;
+    padding: 10px 0;
+    border-bottom: 1px solid #b1b1b1;
+    font-size: 20px;
+}
+.price-box ul li h2{
+        margin: 0;
+    text-transform: uppercase;
+    color: #5f5e5e;
+}
+.price-box ul li h1{
+        margin: 0;
+    font-size: 3em;
+    color: #505050;
+}
+.price-box ul li button{
+     padding: 10px 40px;
+    color: #fff;
+    background: #02cc83;
+    border: 0;
+    box-shadow: 0 4px 5px #7b7b7b;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
